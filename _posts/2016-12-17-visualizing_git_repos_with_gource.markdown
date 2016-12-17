@@ -21,7 +21,6 @@ I decided I needed to try this on my own Git repositories.  In order to do this 
 
 I found that Homebrew is a package manager for Macs.  From their site, “Homebrew installs the stuff you need that Apple didn’t”.  It is also open source, created with git and ruby.  I proceeded with installing Homebrew by running the following command in Terminal:
 
-Code
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 After this completed, from other articles, they recommend these two commands be run to update and get Homebrew ready:
@@ -35,6 +34,7 @@ You can get more information by going directly to the [Homebrew site](http://bre
 I was now ready to install Gource.  Per the instructions you are to:
 
 Install FFMPEG, this is to install the video encoder and its dependencies:
+
 `brew install ffmpeg`
 
 Then install Gource the same way:
@@ -51,6 +51,7 @@ This will open up a new window and start the video showing you a graphical repre
 
 # How Do I Create Gource Videos?
 To create an MP4, you can use the following code:
+
 `gource —hide filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4`
 
 Here is my first video of one of the HTML and CSS projects I coded along to.  I believe I spend a total of 5 days working on it but here its condensed to about 20 seconds:
