@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Visualizing Git Repos with Gource"
-date:   2016-12-17 05:10:12 +0000
+date:   2016-12-17 00:10:12 -0500
 ---
 
 
@@ -9,14 +9,14 @@ I am fairly new to the world of coding, but already feel like I’m immersed in 
 
 I had a really good meeting with a fellow developer friend today.  I was able to get a tour of his office and he showed me some of the really neat projects he is currently working on.  One of the really neat things he showed me was Gource. 
 
-### What is Gource?
+## What is Gource?
 Here is the visualization of the Evolution of the Ruby programming language.  Check out Matz going to town on his own in the earlier years!
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/si-kxnwKvjU/0.jpg)](http://www.youtube.com/watch?v=si-kxnwKvjU "Evolution of ruby (Gource Visualization)")
 
 I found Gource to be pretty neat!  Here was a visualization program that could take any directory using Git and turn it into a beautiful graphical representation.  From the Gourse site, “Software projects are displayed by Gource as an animated tree with the root directory of the project at its centre. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project.”
 
-### How do I get it?
+## How do I get it?
 I decided I needed to try this on my own Git repositories.  In order to do this I had to first install Gource on my Mac.  I headed over to the Gource page which told me I needed to use Homebrew to install this.  At this point I had no idea what Homebrew was.  So it was time to do a bit of reading and Googling.  
 
 I found that Homebrew is a package manager for Macs.  From their site, “Homebrew installs the stuff you need that Apple didn’t”.  It is also open source, created with git and ruby.  I proceeded with installing Homebrew by running the following command in Terminal:
@@ -49,7 +49,7 @@ Run:
 
 This will open up a new window and start the video showing you a graphical representation of your work within that directory.  
 
-### How Do I Create Gource Videos?
+## How Do I Create Gource Videos?
 To create an MP4, you can use the following code:
 `gource —hide filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4`
 
