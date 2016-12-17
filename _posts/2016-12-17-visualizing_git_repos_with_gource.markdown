@@ -14,7 +14,7 @@ Here is the visualization of the Evolution of the Ruby programming language.  Ch
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/si-kxnwKvjU/0.jpg)](http://www.youtube.com/watch?v=si-kxnwKvjU "Evolution of ruby (Gource Visualization)")
 
-I found Gource to be pretty neat!  Here was a visualization program that could take any directory using Git and turn it into a beautiful graphical representation.  From the Gource site, “Software projects are displayed by Gource as an animated tree with the root directory of the project at its centre. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project.”
+I found Gource to be pretty neat!  Here was a visualization program that could take any directory using Git and turn it into a beautiful graphical representation.  From the [Gource](http://gource.io/) site, “Software projects are displayed by Gource as an animated tree with the root directory of the project at its centre. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project.”
 
 # How do I get it?
 I decided I needed to try this on my own Git repositories.  In order to do this I had to first install Gource on my Mac.  I headed over to the Gource page which told me I needed to use Homebrew to install this.  At this point I had no idea what Homebrew was.  So it was time to do a bit of reading and Googling.  
