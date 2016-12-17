@@ -38,6 +38,7 @@ Install FFMPEG, this is to install the video encoder and its dependencies:
 `brew install ffmpeg`
 
 Then install Gource the same way:
+
 `brew install gource`
 
 Now that this is completed, you are ready to try it on your coding directories.  
