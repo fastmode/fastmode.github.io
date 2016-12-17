@@ -58,14 +58,14 @@ To create an MP4, you can use the following code:
 Here is my first video of one of the HTML and CSS projects I coded along to.  I believe I spend a total of 5 days working on it but here its condensed to about 20 seconds (Click image to open Youtube video):
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/aS43-x_lUCM/0.jpg)](http://www.youtube.com/watch?v=aS43-x_lUCM "My First Gource Attempt ")
-Git: https://github.com/fastmode/exceptional-realty-bootstrapped
+Git: [Exceptional Realty Bootstrapped](https://github.com/fastmode/exceptional-realty-bootstrapped)
 
 Here is one more of the development of the Learn IDE. I’ve been using the Learn IDE to learn how to code.  You can see its a lot more complex and cooler than my project.  
 
 Learn IDE Dec 2015 - Dec 2016 Development in one minute (Click image to open Youtube video):
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/hwocDc3UYR0/0.jpg)](http://www.youtube.com/watch?v=hwocDc3UYR0 "Learn IDE Dec 2015 - Dec 2016")
-Git: https://github.com/learn-co/learn-ide
+Git: [Learn IDE](https://github.com/learn-co/learn-ide)
 
 Check out this [Wiki](https://code.google.com/archive/p/gource/wikis/Videos.wiki) with more information on Gource and on making videos.  
 
