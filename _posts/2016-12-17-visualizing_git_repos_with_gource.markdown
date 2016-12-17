@@ -10,7 +10,7 @@ I am fairly new to the world of coding, but already feel like I’m immersed in 
 I had a really good meeting with a fellow developer friend today.  I was able to get a tour of his office and he showed me some of the really neat projects he is currently working on.  One of the really neat things he showed me was Gource. 
 
 # What is Gource?
-Here is the visualization of the Evolution of the Ruby programming language.  Check out Matz going to town on his own in the earlier years!
+Here is the visualization of the Evolution of the Ruby programming language.  Check out Matz going to town on his own in the earlier years! (Click image to open Youtube video)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/si-kxnwKvjU/0.jpg)](http://www.youtube.com/watch?v=si-kxnwKvjU "Evolution of ruby (Gource Visualization)")
 
@@ -54,14 +54,14 @@ To create an MP4, you can use the following code:
 
 `gource —hide filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4`
 
-Here is my first video of one of the HTML and CSS projects I coded along to.  I believe I spend a total of 5 days working on it but here its condensed to about 20 seconds:
+Here is my first video of one of the HTML and CSS projects I coded along to.  I believe I spend a total of 5 days working on it but here its condensed to about 20 seconds (Click image to open Youtube video):
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/aS43-x_lUCM/0.jpg)](http://www.youtube.com/watch?v=aS43-x_lUCM "My First Gource Attempt ")
 Git: https://github.com/fastmode/exceptional-realty-bootstrapped
 
 Here is one more of the development of the Learn IDE. I’ve been using the Learn IDE to learn how to code.  You can see its a lot more complex and cooler than my project.  
 
-Learn IDE Dec 2015 - Dec 2016 Development in one minute:
+Learn IDE Dec 2015 - Dec 2016 Development in one minute (Click image to open Youtube video):
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/hwocDc3UYR0/0.jpg)](http://www.youtube.com/watch?v=hwocDc3UYR0 "Learn IDE Dec 2015 - Dec 2016")
 Git: https://github.com/learn-co/learn-ide
