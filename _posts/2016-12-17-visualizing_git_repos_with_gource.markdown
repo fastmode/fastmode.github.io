@@ -10,7 +10,7 @@ I am fairly new to the world of coding, but already feel like I’m immersed in 
 I had a really good meeting with a fellow developer friend today.  I was able to get a tour of his office and he showed me some of the really neat projects he is currently working on.  One of the really neat things he showed me was Gource. 
 
 # What is Gource?
-Here is the visualization of the Evolution of the Ruby programming language.  Check out Matz going to town on his own in the earlier years! (Click image to open Youtube video)
+Here is the visualization of the Evolution of the Ruby programming language.  Check out [Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) going to town on his own in the earlier years! (Click image to open Youtube video)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/si-kxnwKvjU/0.jpg)](http://www.youtube.com/watch?v=si-kxnwKvjU "Evolution of ruby (Gource Visualization)")
 
