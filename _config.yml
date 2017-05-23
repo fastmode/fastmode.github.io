@@ -1,11 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Learning to Code
-header-img: img/home-bg.png
+title: Learning To Code
 email: art.rodriguez@live.com
-copyright_name: fastmode
 description: > # this means to ignore newlines until "baseurl:"
-  My adventure into the world of ones and zeros
+  My adventure into the world of ones an zeros.
 baseurl: "" # the subpath of your site, e.g. /blog
+lang: "en"
 twitter_username: fastmode
 github_username:  fastmode
 learn_profile: fastmode
@@ -13,9 +19,25 @@ email_username: art.rodriguez@live.com
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+relative_permalinks: false
+permalink: /:categories/:title/
 
-gems: [jekyll-paginate, jekyll-feed]
+# Posts settings
+future: true
+safe: false
+lsi: false
+excerpt_separator: "\n\n"
+
+# Theme settings
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
+
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+
+images: '/assets/images'

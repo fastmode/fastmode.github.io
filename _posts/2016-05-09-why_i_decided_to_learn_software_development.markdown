@@ -1,7 +1,12 @@
 ---
+bg: "learn_code.jpeg"
 layout: post
 title:  Why I Decided to Learn Software Development
+summary: "What Did I Get Myself Into?!"
 date:   2016-05-09 19:42:00 -0400
+categories: posts
+tags: ['full-stack']
+author: fastmode
 ---
 
 Ever since I got my hands on my very first computer I wanted to know how it worked and how it made things happened.  I was fascinated by how my input could drive things to happen and it would tell hardware to follow processes.  I grew up building, fixing, and upgrading computers.  I pretty much stayed on the hardware and systems side for most of my life.  I went to college and started a career in Information Technology focusing primarly on server, networking, and operations side of the industry.  Here and there I would pick up a few bit of knowledge and skill set on coding, but I never really dove in.  I picked up HTML, a bit of CSS, and some php in order to get some simple sites up, but as time went by I never really dug into this to take myself to the next level.  I learned Java, C++, Python as well, but with no real world application at my work, these skills were never really practiced and those concepts and knowledge were forgotten.  

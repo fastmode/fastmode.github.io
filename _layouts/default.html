@@ -1,16 +1,22 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang }}">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
+    <div id="shadow"></div>
 
-    {% include nav.html %}
+      {% include header.html %}
+      {% include aside.html %}
 
-    {{ content }}
+    <main class="content-wrapper">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
 
-</body>
-
+  </body>
 </html>
