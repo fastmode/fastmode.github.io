@@ -1,19 +1,14 @@
 ---
-bg: "owl.jpg"
+bg: "art_calibeach.png"
 layout: page
-title: "About"
-crawlertitle: "Why and how this blog was created"
+title: "Art Rodriguez"
+crawlertitle: "About | Art Rodriguez"
 permalink: /about/
-summary: "About this blog"
+summary: "I just want to learn"
 active: about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Art Rodriguez.  I have worked in the Information Technology for over a decade.  I recently decided to change careersr into the web development world.  
 
-You can find the source code for the Jekyll new theme at:
-{{site.twitter_username}} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+This blog is my documentation of my journey into this world.  I am attending Flatiron School to complete their Full Stack Web Development program.  
 
-You can find the source code for Jekyll at
-{{site.github_username}} /
-[jekyll](https://github.com/jekyll/jekyll)
