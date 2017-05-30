@@ -1,7 +1,7 @@
 ---
 bg: "goran-ivos-245581.jpg"
 layout: post
-title:  SQL, ActiveRecord, Sinatra, and FoodMe Reviews
+title:  SQL, ActiveRecord, and Sinatra
 summary: "Loving Sinatra and ActiveRecord"
 date:   2017-05-30 11:01:00 -0400
 categories: posts
