@@ -1,5 +1,5 @@
 ---
-bg: "eaters-collective-129481.jpg"
+bg: "sorry-imkirk-261041.jpg"
 layout: post
 title:  Rails Issue Tracker
 summary: "Keep track of all your Tickets and Issues"
