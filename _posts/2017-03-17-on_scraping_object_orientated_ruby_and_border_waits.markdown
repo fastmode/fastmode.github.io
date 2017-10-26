@@ -5,7 +5,8 @@ title:  "On Scraping, Object Orientated Ruby, and Border Waits"
 summary: "How long will I wait in line?!"
 date:  2017-03-17 07:11:13 -0400
 categories: posts
-tags: ['full-stack']
+tags: ['full-stack', 'projects']
+author: fastmode
 permalink:  on_scraping_object_orientated_ruby_and_border_waits
 ---
 
