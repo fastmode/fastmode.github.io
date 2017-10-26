@@ -1,10 +1,13 @@
 ---
+bg: "boderwait.png"
 layout: post
-title:      "On Scraping, Object Orientated Ruby, and Border Waits"
-date:       2017-10-26 07:11:13 +0000
+title:  "On Scraping, Object Orientated Ruby, and Border Waits"
+summary: "How long will I wait in line?!"
+date:  2017-03-17 07:11:13 -0400
+categories: posts
+tags: ['full-stack']
 permalink:  on_scraping_object_orientated_ruby_and_border_waits
 ---
-
 
 My journey through Flatiron School's Learn program continues.  So far, Object Oriented Ruby has been the more challenging concept to understand.  At this point, I finally have a good grasp of the fundamentals and some additional skills that allow me to create effective and functional applications.  One of the hardest concepts to understand is that you can abstract pretty much everything into an object.  By turning items into objects in programming, you are provided with tools that let you collect data, iterate through it, and present specific data you need.   By using the tools taught in the Object Oriented portion of the curriculum, I now feel confident in using these skills.  
 
