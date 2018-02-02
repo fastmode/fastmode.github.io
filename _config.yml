@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Learning To Code
-email: art.rodriguez@live.com
+title: Always Be Learning
+email: fastmode@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My adventure into the world of ones an zeros.
+  My thoughts and documentation of the dev space
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
 twitter_username: fastmode
 github_username:  fastmode
 learn_profile: fastmode
-email_username: art.rodriguez@live.com
+email_username: fastmode@gmail.com
 
 # Build settings
 markdown: kramdown
