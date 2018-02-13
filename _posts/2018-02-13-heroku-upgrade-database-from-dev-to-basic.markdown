@@ -9,11 +9,11 @@ tags: ['backend', 'database', 'heroku']
 author: fastmode
 ---
 
-Heroku its a great tool for developers.  It allows you to easily deploy your applications without having to worry about setting up servers, networking, hosting.  Essentially, you don't need to be an IT pro to get your app on on the web so others can use it.  
+Heroku its a great tool for developers.  It allows you to easily deploy your applications without having to worry about setting up servers, networking, hosting.  Essentially, you don't need to be an IT Pro to get your app up on the web so others can use it.  
 
 ## Why Upgrade?
 
-There does come a time when you will deploy an application that requires a database to persist some data.  I ran into this very recently when I maxed out the free database provided to developers.   Heroku allows you to create a free **Heroku-Dev** database that you can persist up to 10,000 rows.  My app currently pulls in data from an external source and persists this info into the database, I reached the 10K row limit pretty soon.  It was time to upgrade to the next tier.
+There comes a time when you will deploy an application that requires a database to persist data.  I ran into this very recently when I maxed out the free database provided to developers.   Heroku allows you to create a free **Heroku-Dev** database that you can persist up to 10,000 rows.  My app currently pulls in data from an external source and persists this info into the database, I reached the 10K row limit pretty soon.  It was time to upgrade to the next tier.
 
 Luckily, Heroku offers many plans but the next logical one for me was to upgrade to **Heroku Basic**.  This tier allows 10,000,000 rows!  Heroku has a guide that it offers but unfortunately, it doesn't capture how to exactly upgrade to the Basic plan.  It offers an explanation for their more Enterprise plans, but doesn't clearly outline how to just make the next jump.
 
