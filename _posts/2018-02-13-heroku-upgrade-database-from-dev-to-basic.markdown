@@ -21,7 +21,7 @@ Luckily, Heroku offers many plans but the next logical one for me was to upgrade
 
 After some researching online with some trial and error, I was able to move from **Heroku-Dev** to **Heroku-Basic**.
 
-###Provision a **Heroku-Basic** Postgres Database. 
+### Provision a **Heroku-Basic** Postgres Database. 
 * Log into your Heroku account and click into your app. 
 * Navigate to the Resources tab
 * Click on the "Find more add-ons" button
