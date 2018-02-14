@@ -9,29 +9,29 @@ tags: ['backend', 'database', 'heroku']
 author: fastmode
 ---
 
-Heroku its a great tool for developers.  It allows you to easily deploy your applications without having to worry about setting up servers, networking, hosting.  Essentially, you don't need to be an IT Pro to get your app up on the web so others can use it.  
+Heroku is a great tool for developers. It allows you to easily deploy applications without having to worry about setting up servers, networking, hosting, etc. Essentially, you don't need to be an IT pro to get your app up on the web so others can use it. 
 
 ## Why Upgrade?
 
-There comes a time when you will deploy an application that requires a database to persist data.  I ran into this very recently when I maxed out the free database provided to developers.   Heroku allows you to create a free **Heroku-Dev** database that you can persist up to 10,000 rows.  My app currently pulls in data from an external source and persists this info into the database, I reached the 10K row limit pretty soon.  It was time to upgrade to the next tier.
+There comes a time when you will deploy an application that requires a database to persist data.  I ran into this very recently when I maxed out the free database provided to developers.   Heroku allows you to create a free **Heroku-Dev** database that you can persist up to 10,000 rows.  My app currently pulls in data from an external source and persists this info into the database so I reached the 10,000 row limit quickly.  It was time to upgrade to the next tier.
 
-Luckily, Heroku offers many plans but the next logical one for me was to upgrade to **Heroku Basic**.  This tier allows 10,000,000 rows!  Heroku has a guide that it offers but unfortunately, it doesn't capture how to exactly upgrade to the Basic plan.  It offers an explanation for their more Enterprise plans, but doesn't clearly outline how to just make the next jump.
+Luckily, Heroku offers many plans but the next logical one for me was to upgrade to **Heroku Basic**.  This tier allows 10,000,000 rows!  Heroku has a guide that it offers but unfortunately, it doesn't capture how to exactly to upgrade to the Basic plan.  It offers an explanation for their more Enterprise plans, but doesn't clearly outline how to just make the next jump.
 
 ## How Do I Upgrade?
 
 After some researching online with some trial and error, I was able to move from **Heroku-Dev** to **Heroku-Basic**.
 
 ### Provision a **Heroku-Basic** Postgres Database. 
-* Log into your Heroku account and click into your app. 
+* Log into your Heroku account and click into your app 
 * Navigate to the Resources tab
 * Click on the "Find more add-ons" button
-* In the new window, click on Data Stores, then find and click on Heroku Postgres.
+* In the new window, click on Data Stores, then find and click on Heroku Postgres
 * Click on Install Heroku Postgres
 * Select your Application from the dropdown
 * Select the Plan Name, here you will select **Heroku Basic**, which at the time of this post is $9.00 per month
 * Then click on the Provision button
 
-This will take a short amount of time provision.  In the mean time, open up your Terminal and navigate to your app's folder repo.  
+This will take a short amount of time to provision.  In the mean time, open up your Terminal and navigate to your app's folder repo.  
 
 If you run `heroku pg:info` you will now see the new database there.
 
@@ -68,7 +68,7 @@ Add-on:                postgresql-perpendicular-27024
 ``` 
 As you can see, my original Hobby-dev database is called `DATABASE_URL` and my new Hobby-basic database is called `HEROKU_POSTGRESSQL_GOLD_URL`
 
-At this point, you can very easily follow the Heroku provided guide:  <https://devcenter.heroku.com/articles/upgrading-heroku-postgres-databases>.  You can also follow along since you are already here and I give you the real deal.
+At this point, you can very easily follow the Heroku provided guide:  <https://devcenter.heroku.com/articles/upgrading-heroku-postgres-databases>.  You can also continue reading this post since you are already here and I give you the real deal.
 
 ## Copying your data to new databse
 
@@ -86,7 +86,7 @@ Enabling maintenance mode for ⬢ espera-app... done
 
 ### Copy the Data
 
-The next step is to actually copy all the data from my original Dev database over to the new Basic database.  I did this by running the `pg:copy` command.  This takes the name of your Dev and new Basic databases.  You can find these by running `pg:info`.  In my case, the original database was simply called `DATABASE_URL` and the new one was `HEROKU_POSTGRESQL_GOLD_URL`.
+The next step is to copy all the data from my original Dev database over to the new Basic database.  I did this by running the `pg:copy` command.  This takes the name of your Dev and new Basic databases.  You can find these names by running `pg:info`.  In my case, the original database was simply called `DATABASE_URL` and the new one was `HEROKU_POSTGRESQL_GOLD_URL`.
 
 I successfully ran `pg:copy`, and entered my app name to verify and proceed, as you can see below:
 
@@ -107,7 +107,7 @@ Copying... done
 
 ### Promote Your New Database
 
-After this completed, you will need to promote your new Basic database.  You can do this by running `heroku pg:promote <name of new basic database>`.  
+After this completes, you will need to promote your new Basic database.  You can do this by running `heroku pg:promote <name of new basic database>`.  
 
 ```
 Dev/espera/espera-app  master ✔                                     
@@ -126,7 +126,7 @@ Dev/espera/espera-app  master ✔
 Disabling maintenance mode for ⬢ espera-app... done
 ```
 
-You can then run `heroku pg:info` to see the updated status of your databases.  You can see the my GOLD database is now at the top and primary.
+You can then run `heroku pg:info` to see the updated status of your databases.  You can see the GOLD database is now at the top and primary.
 
 ```
 Dev/espera/espera-app  master ✔  
