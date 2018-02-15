@@ -8,9 +8,8 @@ summary: "Art Rodriguez"
 active: about
 ---
 
-I have worked in the Information Technology for over a decade and have dived deep into web development for the last couple of years.  I enjoy programming in Javascript and Rails.  Recent Javascript libraries I enjoy are React and D3.  
+Hi!  Appears you have stumbled onto my homepage.  I'm a software developer and information technology consultant based in New York City.  I have consulted for big, small and non-profit organizations.  I am an alum of [Flatiron School](https://flatironschool.com/) and before that I studied Computer Information Systems at [Arizona State University](https://www.asu.edu/).  I accept consulting engagements worldwide through my company [Codigo NYC](http://codigonyc.com/).
 
-This site is documentation of my discoveries and thoughts on technology and web development.
 
 Here are some projects I currently iterate on:
 
