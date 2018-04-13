@@ -18,7 +18,7 @@ I currently enjoy building useful applications through my company [Codigo NYC](h
 
 **Espera** - view border wait times from Canadian and Mexican port of entries.  
 *Ruby on Rails, PostgreSQL, deployed to Heroku*  
-[Live App](http://www.espers.io) | [GitHub](https://github.com/fastmode/espera-app)
+[Live App](http://www.espera.io) | [GitHub](https://github.com/fastmode/espera-app)
 
 **Rails Issue Tracker** - keep track of your work with tickets and issues.  
 *Javascript, jQuery Front End, Ruby on Rails Back End, PostgresSQL*  
