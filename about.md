@@ -1,5 +1,5 @@
 ---
-bg: "art_calibeach.png"
+bg: "artphoto.jpg"
 layout: page
 title: "About"
 crawlertitle: "About | Art Rodriguez"
